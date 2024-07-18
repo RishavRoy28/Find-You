@@ -13,7 +13,7 @@ form {
 }
 
 h1 {
-  color: #3498db;
+  color: #ff6f61;
   font-size: 2.5rem;
   margin: auto;
   text-align: center;
@@ -30,8 +30,8 @@ h1:hover {
   margin: auto;
   margin-top: 20px;
   display: block;
-  background-color: #ecf0f1;
-  border: 2px solid #3498db;
+  background-color: #f0e5de;
+  border: 2px solid #ff6f61;
   border-radius: 7px;
   color: #333;
   font-weight: bold;
@@ -45,13 +45,13 @@ h1:hover {
 
 .inputForm input:focus {
   outline: none;
-  border-color: #e74c3c;
+  border-color: #34a853;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .card {
   max-width: 50%;
-  background-color: #1abc9c;
+  background-color: #f7cac9;
   border-radius: 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -61,7 +61,7 @@ h1:hover {
 
 .avatar {
   border-radius: 50%;
-  border: 4px solid #3498db;
+  border: 4px solid #ff6f61;
   height: 150px;
   width: 150px;
   transition: transform 0.3s ease-in-out;
@@ -83,7 +83,7 @@ h1:hover {
 .user-info h2 {
   margin-top: 0;
   font-size: 1.5rem;
-  color: #e74c3c;
+  color: #34a853;
 }
 
 .user-info p {
@@ -108,13 +108,13 @@ h1:hover {
 .user-info ul li strong {
   font-size: 0.9rem;
   margin-left: 0.5rem;
-  color: #e74c3c;
+  color: #34a853;
 }
 
 .repo {
   text-decoration: none;
   color: #fff;
-  background-color: #f39c12;
+  background-color: #6b5b95;
   font-size: 0.9rem;
   padding: 0.4rem 0.8rem;
   margin-right: 0.5rem;
@@ -125,7 +125,7 @@ h1:hover {
 }
 
 .repo:hover {
-  background-color: #d35400;
+  background-color: #563d7c;
   transform: scale(1.05);
 }
 
