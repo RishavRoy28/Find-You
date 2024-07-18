@@ -3,26 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>For You</title>
+  <title>Find You</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>For You</h1>
+  <h1>Find You</h1>
   <form class="inputForm">
-    <input type="text" placeholder="Search a Github User">
+    <input type="text" id="username" placeholder="Search a Github User">
   </form>
-  <div class="card">
-    <img src="avatar.png" alt="User Avatar" class="avatar">
+  <div class="card" id="card" style="display: none;">
+    <img src="avatar.png" alt="User Avatar" class="avatar" id="avatar">
     <div class="user-info">
-      <h2>geeksforgeeks</h2>
-      <p>7 Followers 0 Following 1 Repos</p>
+      <h2 id="name">Username</h2>
+      <p><span id="followers">0</span> Followers <span id="following">0</span> Following <span id="repos">0</span> Repos</p>
       <ul>
-        <li><strong>7</strong> Followers</li>
-        <li><strong>0</strong> Following</li>
-        <li><strong>1</strong> Repos</li>
+        <li><strong id="followers-count">0</strong> Followers</li>
+        <li><strong id="following-count">0</strong> Following</li>
+        <li><strong id="repos-count">0</strong> Repos</li>
       </ul>
-      <a href="https://geeksforgeeks.github.io" class="repo">geeksforgeeks.github.io</a>
+      <a href="#" class="repo" id="repo-link">Github Profile</a>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
