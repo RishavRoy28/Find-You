@@ -11,7 +11,9 @@ async function fetchUser(username) {
   try {
     let response = await fetch(`https://api.github.com/users/${username}`);
     let data = await response.json();
-    
+
+    console.log(data); // Debugging line to check fetched data
+
     if (data.message === 'Not Found') {
       alert('User not found');
       return;
